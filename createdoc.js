@@ -32,16 +32,39 @@ jwtClient.authorize(async (err, tokens) => {
     console.log(createResponse.data);
 
     // var fileId = '1sTWaJ_j7PkjzaBWtNc3IzovK5hQf21FbOw9yLeeLPNQ';
-    const fileId = createResponse.data.documentId
-    var permissions = [
-      {
-        'type': 'user',
-        'role': 'writer',
-        'emailAddress': 'jedsada.ngow@gmail.com'
-      }
-    ];
+    // const fileId = createResponse.data.documentId
+    // var permissions = [
+    //   {
+    //     'type': 'user',
+    //     'role': 'writer',
+    //     'emailAddress': 'jedsada.ngow@gmail.com'
+    //   }
+    // ];
 
-    
+    // // Using the NPM module 'async'
+    // async.eachSeries(permissions, function (permission, permissionCallback) {
+    //   docs.permissions.create({
+    //     resource: permission,
+    //     fileId: fileId,
+    //     fields: 'id',
+    //   }, function (err, res) {
+    //     if (err) {
+    //       // Handle error...
+    //       console.error(err);
+    //       permissionCallback(err);
+    //     } else {
+    //       console.log('Permission ID: ', res.id)
+    //       permissionCallback();
+    //     }
+    //   });
+    // }, function (err) {
+    //   if (err) {
+    //     // Handle error
+    //     console.error(err);
+    //   } else {
+    //     // All permissions inserted
+    //   }
+    // });
   }
 });
 
