@@ -24,11 +24,6 @@ jwtClient.authorize(async (err, tokens) => {
       auth: jwtClient,
     });
 
-    const params = { pageSize: 100 };
-    // params.q = query;
-    const res = await drive.files.list(params);
-    console.log(res.data);
-
     var fileId = '17y2v-11oNI32Bau7cyUsWYzJcu_KNSNhdRrIwgddw84';
     var permissions = [
       // {
