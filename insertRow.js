@@ -1,10 +1,6 @@
 const { google } = require('googleapis');
 const privatekey = require("./privatekey.json");
-const fs = require('fs');
-
-// let rawdata = fs.readFileSync('simple2.json');
-// let requestBody = JSON.parse(rawdata);
-// console.log('requestBody', requestBody)
+const async = require('async')
 // const util = require('util');
 
 // configure a JWT auth client
@@ -28,12 +24,42 @@ jwtClient.authorize(async (err, tokens) => {
       auth: jwtClient,
     });
 
-    const createResponse = await docs.documents.create({
-      requestBody: {
-        title: 'Your new document!',
+    let customerName = 'Alice';
+    let date = '18/01/2030'
+
+    requests = [{
+      'insertText': {
+        'location': {
+          'index': 5
+        },
+        'text': 'Hello'
+      }
+    },
+    {
+      'insertTableRow': {
+        'tableCellLocation': {
+          'tableStartLocation': {
+            'index': 27
+          },
+          'rowIndex': 1,
+          'columnIndex': 1
+        },
+        'insertBelow': 'true'
+      }
+    }]
+
+
+
+    docs.documents.batchUpdate(
+      {
+        documentId: '1pGLqNNcu0J17OAVuVDLjHqhRyhrOUmBcTXeZ0WGNbfo',
+        resource: {
+          requests,
+        },
       },
-    });
-    console.log(createResponse.data);
+      (err) => {
+        if (err) return console.log('The API returned an error: ' + err);
+      });
 
     // var fileId = '1sTWaJ_j7PkjzaBWtNc3IzovK5hQf21FbOw9yLeeLPNQ';
     // const fileId = createResponse.data.documentId
@@ -71,5 +97,8 @@ jwtClient.authorize(async (err, tokens) => {
     // });
   }
 });
+
+
+
 
 

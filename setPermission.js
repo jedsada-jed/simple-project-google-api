@@ -24,7 +24,7 @@ jwtClient.authorize(async (err, tokens) => {
       auth: jwtClient,
     });
 
-    var fileId = '17y2v-11oNI32Bau7cyUsWYzJcu_KNSNhdRrIwgddw84';
+    var fileId = '1WtwxmCpPZhkiuMoPbIlJ48MYkL0b3PaEUG9wrVHXcJU';
     var permissions = [
       // {
       //   'type': 'user',

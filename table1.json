@@ -1,0 +1,535 @@
+{
+  "startIndex": 28,
+  "endIndex": 155,
+  "table": {
+    "rows": 1,
+    "columns": 2,
+    "tableRows": [
+      {
+        "startIndex": 29,
+        "endIndex": 154,
+        "tableCells": [
+          {
+            "startIndex": 30,
+            "endIndex": 102,
+            "content": [
+              {
+                "startIndex": 31,
+                "endIndex": 44,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 31,
+                      "endIndex": 44,
+                      "textRun": {
+                        "content": "PREPARED FOR\n",
+                        "textStyle": {
+                          "bold": true
+                        }
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "headingId": "h.lo6y9xhie3wh",
+                    "namedStyleType": "HEADING_4",
+                    "alignment": "START",
+                    "direction": "LEFT_TO_RIGHT",
+                    "indentFirstLine": {
+                      "magnitude": 1.5,
+                      "unit": "PT"
+                    },
+                    "indentStart": {
+                      "magnitude": 1.5,
+                      "unit": "PT"
+                    }
+                  }
+                }
+              },
+              {
+                "startIndex": 44,
+                "endIndex": 58,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 44,
+                      "endIndex": 57,
+                      "textRun": {
+                        "content": "CUSTOMER NAME",
+                        "textStyle": {}
+                      }
+                    },
+                    {
+                      "startIndex": 57,
+                      "endIndex": 58,
+                      "textRun": {
+                        "content": "\n",
+                        "textStyle": {
+                          "foregroundColor": {
+                            "color": {
+                              "rgbColor": {
+                                "red": 0.19215687,
+                                "green": 0.22352941,
+                                "blue": 0.3019608
+                              }
+                            }
+                          },
+                          "fontSize": {
+                            "magnitude": 9,
+                            "unit": "PT"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "headingId": "h.i3oksnyre34u",
+                    "namedStyleType": "HEADING_1",
+                    "lineSpacing": 115,
+                    "direction": "LEFT_TO_RIGHT",
+                    "indentFirstLine": {
+                      "magnitude": 1.5,
+                      "unit": "PT"
+                    },
+                    "indentStart": {
+                      "magnitude": 1.5,
+                      "unit": "PT"
+                    }
+                  }
+                }
+              },
+              {
+                "startIndex": 58,
+                "endIndex": 78,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 58,
+                      "endIndex": 78,
+                      "textRun": {
+                        "content": "123 CUSTOMER STREET\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "headingId": "h.cvedkgeymg0f",
+                    "namedStyleType": "HEADING_4",
+                    "direction": "LEFT_TO_RIGHT",
+                    "indentFirstLine": {
+                      "magnitude": 1.5,
+                      "unit": "PT"
+                    },
+                    "indentStart": {
+                      "magnitude": 1.5,
+                      "unit": "PT"
+                    }
+                  }
+                }
+              },
+              {
+                "startIndex": 78,
+                "endIndex": 102,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 78,
+                      "endIndex": 101,
+                      "textRun": {
+                        "content": "CUSTOMER CITY, ST 12345",
+                        "textStyle": {}
+                      }
+                    },
+                    {
+                      "startIndex": 101,
+                      "endIndex": 102,
+                      "textRun": {
+                        "content": "\n",
+                        "textStyle": {
+                          "foregroundColor": {
+                            "color": {
+                              "rgbColor": {
+                                "red": 0.19215687,
+                                "green": 0.22352941,
+                                "blue": 0.3019608
+                              }
+                            }
+                          },
+                          "fontSize": {
+                            "magnitude": 9,
+                            "unit": "PT"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "headingId": "h.cvedkgeymg0f",
+                    "namedStyleType": "HEADING_4",
+                    "direction": "LEFT_TO_RIGHT",
+                    "indentFirstLine": {
+                      "magnitude": 1.5,
+                      "unit": "PT"
+                    },
+                    "indentStart": {
+                      "magnitude": 1.5,
+                      "unit": "PT"
+                    }
+                  }
+                }
+              }
+            ],
+            "tableCellStyle": {
+              "rowSpan": 1,
+              "columnSpan": 1,
+              "backgroundColor": {},
+              "borderLeft": {
+                "color": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 1,
+                      "green": 1,
+                      "blue": 1
+                    }
+                  }
+                },
+                "width": {
+                  "magnitude": 1,
+                  "unit": "PT"
+                },
+                "dashStyle": "SOLID"
+              },
+              "borderRight": {
+                "color": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 1,
+                      "green": 1,
+                      "blue": 1
+                    }
+                  }
+                },
+                "width": {
+                  "magnitude": 1,
+                  "unit": "PT"
+                },
+                "dashStyle": "SOLID"
+              },
+              "borderTop": {
+                "color": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 1,
+                      "green": 1,
+                      "blue": 1
+                    }
+                  }
+                },
+                "width": {
+                  "magnitude": 1,
+                  "unit": "PT"
+                },
+                "dashStyle": "SOLID"
+              },
+              "borderBottom": {
+                "color": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 1,
+                      "green": 1,
+                      "blue": 1
+                    }
+                  }
+                },
+                "width": {
+                  "magnitude": 1,
+                  "unit": "PT"
+                },
+                "dashStyle": "SOLID"
+              },
+              "paddingLeft": {
+                "magnitude": 5,
+                "unit": "PT"
+              },
+              "paddingRight": {
+                "magnitude": 5,
+                "unit": "PT"
+              },
+              "paddingTop": {
+                "magnitude": 5,
+                "unit": "PT"
+              },
+              "paddingBottom": {
+                "magnitude": 5,
+                "unit": "PT"
+              },
+              "contentAlignment": "TOP"
+            }
+          },
+          {
+            "startIndex": 102,
+            "endIndex": 154,
+            "content": [
+              {
+                "startIndex": 103,
+                "endIndex": 117,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 103,
+                      "endIndex": 117,
+                      "textRun": {
+                        "content": "PREPARED DATE\n",
+                        "textStyle": {
+                          "bold": true
+                        }
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "headingId": "h.2ld7u75uhr8p",
+                    "namedStyleType": "HEADING_4",
+                    "alignment": "END",
+                    "direction": "LEFT_TO_RIGHT",
+                    "indentFirstLine": {
+                      "unit": "PT"
+                    },
+                    "indentStart": {
+                      "unit": "PT"
+                    }
+                  }
+                }
+              },
+              {
+                "startIndex": 117,
+                "endIndex": 130,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 117,
+                      "endIndex": 130,
+                      "textRun": {
+                        "content": "Jun 06, 20XX\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "headingId": "h.l20sm6c0g7rv",
+                    "namedStyleType": "HEADING_4",
+                    "alignment": "END",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              },
+              {
+                "startIndex": 130,
+                "endIndex": 131,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 130,
+                      "endIndex": 131,
+                      "textRun": {
+                        "content": "\n",
+                        "textStyle": {
+                          "bold": true,
+                          "foregroundColor": {
+                            "color": {
+                              "rgbColor": {
+                                "red": 0.19215687,
+                                "green": 0.22352941,
+                                "blue": 0.3019608
+                              }
+                            }
+                          },
+                          "fontSize": {
+                            "magnitude": 9,
+                            "unit": "PT"
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "namedStyleType": "NORMAL_TEXT",
+                    "alignment": "END",
+                    "lineSpacing": 115,
+                    "direction": "LEFT_TO_RIGHT",
+                    "indentFirstLine": {
+                      "unit": "PT"
+                    },
+                    "indentStart": {
+                      "unit": "PT"
+                    }
+                  }
+                }
+              },
+              {
+                "startIndex": 131,
+                "endIndex": 141,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 131,
+                      "endIndex": 141,
+                      "textRun": {
+                        "content": "EXP. DATE\n",
+                        "textStyle": {
+                          "bold": true
+                        }
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "headingId": "h.iyo0qomhrkig",
+                    "namedStyleType": "HEADING_4",
+                    "alignment": "END",
+                    "direction": "LEFT_TO_RIGHT",
+                    "indentFirstLine": {
+                      "unit": "PT"
+                    },
+                    "indentStart": {
+                      "unit": "PT"
+                    }
+                  }
+                }
+              },
+              {
+                "startIndex": 141,
+                "endIndex": 154,
+                "paragraph": {
+                  "elements": [
+                    {
+                      "startIndex": 141,
+                      "endIndex": 154,
+                      "textRun": {
+                        "content": "Aug 06, 20XX\n",
+                        "textStyle": {}
+                      }
+                    }
+                  ],
+                  "paragraphStyle": {
+                    "headingId": "h.bkm8qnqhwoth",
+                    "namedStyleType": "HEADING_4",
+                    "alignment": "END",
+                    "direction": "LEFT_TO_RIGHT"
+                  }
+                }
+              }
+            ],
+            "tableCellStyle": {
+              "rowSpan": 1,
+              "columnSpan": 1,
+              "backgroundColor": {},
+              "borderLeft": {
+                "color": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 1,
+                      "green": 1,
+                      "blue": 1
+                    }
+                  }
+                },
+                "width": {
+                  "magnitude": 1,
+                  "unit": "PT"
+                },
+                "dashStyle": "SOLID"
+              },
+              "borderRight": {
+                "color": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 1,
+                      "green": 1,
+                      "blue": 1
+                    }
+                  }
+                },
+                "width": {
+                  "magnitude": 1,
+                  "unit": "PT"
+                },
+                "dashStyle": "SOLID"
+              },
+              "borderTop": {
+                "color": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 1,
+                      "green": 1,
+                      "blue": 1
+                    }
+                  }
+                },
+                "width": {
+                  "magnitude": 1,
+                  "unit": "PT"
+                },
+                "dashStyle": "SOLID"
+              },
+              "borderBottom": {
+                "color": {
+                  "color": {
+                    "rgbColor": {
+                      "red": 1,
+                      "green": 1,
+                      "blue": 1
+                    }
+                  }
+                },
+                "width": {
+                  "magnitude": 1,
+                  "unit": "PT"
+                },
+                "dashStyle": "SOLID"
+              },
+              "paddingLeft": {
+                "magnitude": 5,
+                "unit": "PT"
+              },
+              "paddingRight": {
+                "magnitude": 5,
+                "unit": "PT"
+              },
+              "paddingTop": {
+                "magnitude": 5,
+                "unit": "PT"
+              },
+              "paddingBottom": {
+                "magnitude": 5,
+                "unit": "PT"
+              },
+              "contentAlignment": "TOP"
+            }
+          }
+        ],
+        "tableRowStyle": {
+          "minRowHeight": {
+            "magnitude": 84,
+            "unit": "PT"
+          }
+        }
+      }
+    ],
+    "tableStyle": {
+      "tableColumnProperties": [
+        {
+          "widthType": "FIXED_WIDTH",
+          "width": {
+            "magnitude": 370.5,
+            "unit": "PT"
+          }
+        },
+        {
+          "widthType": "FIXED_WIDTH",
+          "width": {
+            "magnitude": 93.75,
+            "unit": "PT"
+          }
+        }
+      ]
+    }
+  }
+}

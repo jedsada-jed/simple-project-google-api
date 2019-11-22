@@ -28,9 +28,9 @@ jwtClient.authorize(async (err, tokens) => {
       auth: jwtClient,
     });
 
-    const fileId = '17y2v-11oNI32Bau7cyUsWYzJcu_KNSNhdRrIwgddw84';
+    const fileId = '1WtwxmCpPZhkiuMoPbIlJ48MYkL0b3PaEUG9wrVHXcJU';
     // const destPath = path.join(os.tmpdir(), 'important.pdf');
-    var dest = fs.createWriteStream('/tmp/test123.pdf');
+    var dest = fs.createWriteStream('/tmp/111test12345.pdf');
     console.log('dest', dest)
     await drive.files.export({
       fileId: fileId,
