@@ -44,7 +44,7 @@ jwtClient.authorize(async (err, tokens) => {
             "sheetId": 790763898,
             "dimension": "ROWS",
             "startIndex": 20, // start after index
-            "endIndex": 25
+            "endIndex": 24
           },
           "inheritFromBefore": true
         }
@@ -80,6 +80,24 @@ jwtClient.authorize(async (err, tokens) => {
         if (result.status == 200) {
           sheets.spreadsheets.values.update({
             spreadsheetId,
+            range: 'Invoice!B3:B3',
+            valueInputOption: insertData.valueInputOption,
+            resource: {
+              values: [
+                ['THStringer2BSimple'],
+              ],
+            },
+          }, (err, result) => {
+            if (err) {
+              // Handle error
+              console.log(err);
+            } else {
+              console.log('%d cells updated.', result.updatedCells);
+            }
+          });
+
+          sheets.spreadsheets.values.update({
+            spreadsheetId,
             range: insertData.range,
             valueInputOption: insertData.valueInputOption,
             resource: valueData,
@@ -94,9 +112,6 @@ jwtClient.authorize(async (err, tokens) => {
         }
         else if (err) return console.log('The API returned an error: ' + err);
       });
-
-
-
 
 
     // var fileId = '1sTWaJ_j7PkjzaBWtNc3IzovK5hQf21FbOw9yLeeLPNQ';
